@@ -22,7 +22,7 @@ plot_time_line <- function(x, y, xlab, ylab, col, plot_name, data_names){
     legend("top", col = col, lty = 1, legend = data_names, cex = 0.8)
     dev.off()
 
-    pdf(filename= paste('results/', plot_name, '.pdf', sep = ''))
+    pdf(paste('results/', plot_name, '.pdf', sep = ''))
     plot(1, type="n", xlab = xlab, ylab = ylab, xlim = c(1,length(years)), 
         ylim = ylim, xaxt="n")
     axis(1, at = 1:dim(y)[1], labels=x, las = 2)

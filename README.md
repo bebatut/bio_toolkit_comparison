@@ -1,9 +1,9 @@
 Comparison of Bio Toolkits
---------------------------
+==========================
 
 # Bio Toolkits
 
-| Release 1.0 | Dernière release | Article majeur | Citations
+Toolkit | Release 1.0 | Dernière release | Article majeur | Citations
 --- | --- | --- | --- | --- 
 [BioPerl](http://www.bioperl.org/) | 2002 | 07/2014 | [2002](http://genome.cshlp.org/content/12/10/1611.abstract) | 1 306
 [BioPython](http://biopython.org/) | 2000 | 10/2015 | [2009](http://bioinformatics.oxfordjournals.org/content/25/11/1422.short) | 608
